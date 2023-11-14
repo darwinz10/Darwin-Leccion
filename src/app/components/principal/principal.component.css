@@ -1,0 +1,57 @@
+.card{
+  margin-top: 10px;
+  width: 80%;
+}
+
+mat-form-field{
+  width: 100%;
+  margin: 5px;
+
+}
+
+
+
+.btnAceptar{
+  margin-right: 5px;
+  color: #e139c5;
+}
+
+
+table {
+  width: 100%;
+  color: rgb(112, 146, 135);
+}
+
+
+
+td,
+th {
+  width: 15%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.delete {
+  cursor: pointer;
+  color: #e139c5;
+}
+
+.edit {
+  cursor: pointer;
+  color: rgb(34, 24, 176);
+}
+
+.search {
+  cursor: pointer;
+
+}
+
+.agregar {
+  font-size: 10px;
+  line-height: 28px;
+  
+  background-color: #db3482;
+}

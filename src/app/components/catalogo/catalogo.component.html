@@ -1,0 +1,36 @@
+<div class="container mt-4">
+
+    <div class="col-lg-3">
+        <mat-divider></mat-divider>
+       <strong>Listado de Opciones:</strong> 
+        
+        <mat-divider></mat-divider>
+
+        <mat-selection-list #shoes>
+            <mat-list-option *ngFor="let shoe of typesOfShoes" [value]="shoe">
+                {{shoe}}
+            </mat-list-option>
+        </mat-selection-list>
+
+        <mat-divider></mat-divider>
+        
+            Options selected: {{shoes.selectedOptions.selected.length}}
+
+            <br>
+            <mat-divider></mat-divider>
+            <br>
+            <mat-divider></mat-divider>
+            Elementos Seleccionados:
+            <mat-divider></mat-divider>
+            <mat-list role="list">
+                <mat-list-item role="listitem" *ngFor="let elem of shoes.selectedOptions.selected">{{elem.value}}</mat-list-item>
+            </mat-list>
+
+            <br>
+           
+        
+    </div>
+
+
+
+</div>
